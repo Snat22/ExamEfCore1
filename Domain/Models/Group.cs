@@ -9,5 +9,5 @@ public class Group
     public string TeamSlogan { get; set; }
     public DateTime CreatedAt { get; set; }
 
-    public ICollection<Participant>? Participants { get; set; }
+    public List<Participant>? Participants { get; set; }
 }
