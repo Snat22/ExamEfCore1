@@ -6,5 +6,5 @@ public class Challenge
     public string? Title { get; set; }
     public string? Description { get; set; }
 
-    public ICollection<Group>? Groups { get; set; }
+    public List<Group>? Groups { get; set; }
 }
